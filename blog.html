@@ -4,13 +4,14 @@
         <meta charset="utf-8">
         <title>Biogafria - João da Silva</title>
         <link rel="icon" href="favicon.png">
+        <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="site.css">
     </head>
     <body>
         <main>
             <h1>Blog</h1>
-    
-            <article>
+            <div>
+                <article>
                 <h2>O essencial de design responsivo</h2>
                 <time datetime="2017-10-11">11 de outubro de 2017</time>
 
@@ -36,9 +37,9 @@
                 <a href="#">Leia mais</a>
                 <footer>Tags: <a href="#">javascript</a>, <a href="#">boas práticas</a></footer>
             </article>
-            
+            </div>
             <img src="eu.jpg" alt="Foto de João da Silva">
-            <aside>
+            <aside class="navegacao-site">
                 <h1>João da Silva</h1>
                 <nav>
                     <ul>
@@ -49,8 +50,25 @@
                         <li><a href="contato.html">Contato</a></li>
                     </ul>
                 </nav>
+                <ul class="icones-redes-sociais">
+                    <li>
+                        <a href="https://github.com/git-joaodasilva">
+                            <img src="github.png" alt="Github">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/twitter-joaodasilva">
+                            <img src="twitter.png" alt="Twitter">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://br.linkedin.com/pub/linkedin-joao-da-silva/32/4/508">
+                            <img src="linkedin.png" alt="LinkedIn">
+                        </a>
+                    </li>
+                </ul>
             </aside>
-            <footer>
+            <footer id="rodape-pagina">
                 &copy; João da Silva 2014
             </footer>
         </main>

@@ -2,34 +2,46 @@ body {
     font-family: "Crimson Text", "Times New Roman", serif;
     background-color: #F2FFFC;
     font-size: 120%;
+    line-height: 1.5;
 }
 
 h1, h2 {
     font-family: "Open Sans Condensed", "Arial", sans-serif;
+    font-size: 100%;
 }
 
 main h1 {
     text-align: center;
     background-color: #851944;
     color: #FFF;
+    border-bottom: 10px solid black;
 }
 
 p {
     text-align: justify;
+    margin: 20px 0;
 }
 
 blockquote {
     background-color: #D9E5E3;
+    padding: 16px;
+    border: 10px solid #C2CCCA;
+    margin: 20px 40px;
+    width: 250px;
+    box-sizing: border-box;
 }
 
-aside {
+.navegacao-site {
     background-color: #3C1D3D;
     color: #F2FFFC;
+    text-align: center;
+    padding: 20px;
 }
 
-footer {
+#rodape-pagina {
     background-color: #000;
     color: #F2FFFC;
+    padding: 20px;
 }
 
 nav a {
@@ -44,4 +56,51 @@ aside a {
     color: inherit;
     font-family: "Open Sans Condensed", sans-serif;
 }
+
+h1 {
+    padding: 24px;
+}
+
+blockquote aside footer {
+    padding: 20px;
+}
+
+main h1 {
+    padding: 20px;
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+main div {
+    width: 720px;
+    margin: auto;
+    padding: 30px 0;
+}
+
+aside h1 {
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
+
+.icones-redes-sociais li {
+    display: inline-block;
+}
+
+article {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
     
